@@ -1,89 +1,89 @@
 [[Xorg_xextproto]]
 arch = "armv7l"
-git-tree-sha1 = "f81a8aa8b1d9b3827befbd78005c39f755126b47"
+git-tree-sha1 = "619969d811070595c273a5d6e25f49995b2a1466"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_xextproto.download]]
-    sha256 = "21a83a17c7a075953175b04dd0ccfbafb285fbb908d38f295867174951f698ec"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.arm-linux-gnueabihf.tar.gz"
+    sha256 = "ef74426963db005dc0f400bea0e5abcf62af0076642bc46ab759826e6e3b92b7"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.armv7l-linux-gnueabihf.tar.gz"
+[[Xorg_xextproto]]
+arch = "i686"
+git-tree-sha1 = "1161b592b621680ce7506ef9df01c11a646ce8e7"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_xextproto.download]]
+    sha256 = "72125fc644b29cd9286fe298571b9a64a43204c2580e480d71e50519eed85bd3"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.i686-linux-musl.tar.gz"
 [[Xorg_xextproto]]
 arch = "aarch64"
-git-tree-sha1 = "8334efc7b16aa42b14f2fe68e1fd1d006695ef85"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_xextproto.download]]
-    sha256 = "9f1b01045b10e6e01850a9be23c4b43101f7bca49872eef2d3061d59e7fb0963"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.aarch64-linux-musl.tar.gz"
-[[Xorg_xextproto]]
-arch = "i686"
-git-tree-sha1 = "6b4cf3a1613511f732ccdba0c65fe8bb94640013"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_xextproto.download]]
-    sha256 = "74da46273e85d38ffc676825454b2872112620e2a77531481857ea95b1464bfe"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.i686-linux-musl.tar.gz"
-[[Xorg_xextproto]]
-arch = "i686"
-git-tree-sha1 = "dad64b1712725e3987e57adb799eb5045837d565"
+git-tree-sha1 = "ac7f1872fbc52b03c15361fdfd977c2aa8366ffa"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_xextproto.download]]
-    sha256 = "e2c142a6191fc7f8a7d91a67d4fa4efbb81479ad8bc3a7f32d1fd6b669d524ea"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.i686-linux-gnu.tar.gz"
+    sha256 = "9e5966780479f8612e8449b46de53bc9f95303b189637c642b87f39afaf0efab"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.aarch64-linux-gnu.tar.gz"
+[[Xorg_xextproto]]
+arch = "armv7l"
+git-tree-sha1 = "8fe34011a48166403ef2a9765d0dd2894fb61288"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_xextproto.download]]
+    sha256 = "90c909c90fa312cc97e726696764337b88c8f044042e6d9bf76d9aec0d102348"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.armv7l-linux-musleabihf.tar.gz"
+[[Xorg_xextproto]]
+arch = "aarch64"
+git-tree-sha1 = "9be9aa9bef1b4044cfe5b2c9411b4fc9731d946c"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_xextproto.download]]
+    sha256 = "02263a7b8bab6afa0b026df9128a83af2b5c416bb3ba3d3b8f04ebccc6bc3913"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.aarch64-linux-musl.tar.gz"
 [[Xorg_xextproto]]
 arch = "x86_64"
-git-tree-sha1 = "2007cc6dc09cb9c48088d8332e08ed85c6592fbf"
+git-tree-sha1 = "b5ff6e09d40bcab4acbc046ca6ba16a3f778670f"
 os = "freebsd"
 
     [[Xorg_xextproto.download]]
-    sha256 = "b91e5369c14550ad9e6b7a52a4cb8aeeca528cd941e57f8b7317ef048d9b57a8"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "82961e1ca2e5e1f91da7e2157ff97467c9d5996d4622c078e69890fad34f1fb3"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.x86_64-unknown-freebsd11.1.tar.gz"
+[[Xorg_xextproto]]
+arch = "i686"
+git-tree-sha1 = "01d744a4ef02b7188a5806436c49122b2d25b8f1"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_xextproto.download]]
+    sha256 = "b685482dc5a316c359c7fa70fa7853f2e1e2c0e0bdb013c7f874fa6817990c50"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.i686-linux-gnu.tar.gz"
+[[Xorg_xextproto]]
+arch = "x86_64"
+git-tree-sha1 = "ffdf9a3b1f657bbe09810e3081e1022283784b15"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_xextproto.download]]
+    sha256 = "4e649638318a914a13af015e90b3c5d734513a1ab0cf3f379e155ead9f3c76ba"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.x86_64-linux-musl.tar.gz"
+[[Xorg_xextproto]]
+arch = "x86_64"
+git-tree-sha1 = "15bf27fc4072fd267c528edcf0d781b0c1a52cf4"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_xextproto.download]]
+    sha256 = "9bc5da6d97e3f8296fe685ff132cf16dcdefa249809810484a17ac857c309cd4"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.x86_64-linux-gnu.tar.gz"
 [[Xorg_xextproto]]
 arch = "powerpc64le"
-git-tree-sha1 = "1cce41cc30542091b01d742ecab1436eab11c24d"
+git-tree-sha1 = "baf94272940cfa1590f7c72c9b298c3fa0455382"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_xextproto.download]]
-    sha256 = "b69dbcae0a0537da28a946fd5442073a69f657447fc8a9c222bdcbf68c8d0d83"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.powerpc64le-linux-gnu.tar.gz"
-[[Xorg_xextproto]]
-arch = "armv7l"
-git-tree-sha1 = "88950b4139ac71abcf2b10a15be39e61d4b6e2f1"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_xextproto.download]]
-    sha256 = "072a1d21040ed62ca3beabbf9875beade9362d3fa5052bf2850d5d707ebdba39"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.arm-linux-musleabihf.tar.gz"
-[[Xorg_xextproto]]
-arch = "aarch64"
-git-tree-sha1 = "43adb3c5ea912ec5e0d309e7f478dae9eb9026fa"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_xextproto.download]]
-    sha256 = "30dd2441a99d7da9b6ed1dd1bee16b5e76946ca2d4e3b92a6fe1630ab0203204"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.aarch64-linux-gnu.tar.gz"
-[[Xorg_xextproto]]
-arch = "x86_64"
-git-tree-sha1 = "b8bb124ec4bcc3178a57bd6270dd5c5b795c035f"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_xextproto.download]]
-    sha256 = "c7850fc2a58ca85e025e2c3d84686d2515b7b56010c57de3c36d9237bfeaf205"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.x86_64-linux-gnu.tar.gz"
-[[Xorg_xextproto]]
-arch = "x86_64"
-git-tree-sha1 = "c1ed3694c4173451e3bf67f2f9b8505a51d169ec"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_xextproto.download]]
-    sha256 = "9d9b337049acbcaf06224fa9731112b2471805f30bce97f47156510438635614"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+0/Xorg_xextproto.v7.3.0.x86_64-linux-musl.tar.gz"
+    sha256 = "f4d410f534f67c4c23826a19ce2d0fa817a976720f16539e55ba5e196cd1293c"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_xextproto_jll.jl/releases/download/Xorg_xextproto-v7.3.0+1/Xorg_xextproto.v7.3.0.powerpc64le-linux-gnu.tar.gz"
